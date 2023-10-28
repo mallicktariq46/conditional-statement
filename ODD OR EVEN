@@ -1,0 +1,11 @@
+/*/
+ author:mallicktariq
+/*/
+#incldue<bits/stdc++.h>
+using namespace std;
+int main(){
+int a1;
+cin>>a1;
+if(a1&)cout<<"ODD"<<endl;
+else cout<<"EVEN"<<endl;
+}
