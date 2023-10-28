@@ -1,17 +1,33 @@
-author : mallicktariq
-prn : 22070123124
-#include <iostream>
+/*/author: tariq akhlak.
+etc : b2.
+prn : 124.
+/*/
+#include<bits/stdc++.h>
 using namespace std;
-
-int main() {
-   bool imagecolor = true;
-   if(imagecolor){ //Checks whether imagecolor is true or not, and if true it prints the below statement or else, prints the statement in the else part.
-    cout<<"Image is colorfull";
-   }else{
-    cout<<"Image is not colorfull";
-   }
-return 0;
+bool f1(bool b1){
+    if(b1){
+        return true;
+    }
+else{
+ return false;
 }
-/*  OUTPUT
-Image is colorfull
-*/
+   
+}
+int main(){
+    bool bf;
+    cout<<"enter 1 or 0:"<<endl;
+    cin>>bf;
+    if(f1(bf)){
+        cout<<"IMAGE IS COLOURFUL :"<<endl;
+    }
+    else{
+        cout<<"IMAGE IS B/W"<<endl;
+    }
+    return 0;
+}
+/*/
+if bf==true : 
+IMAGE IS COLOURFUL.
+else :
+IMAGE IS B/W
+/*/
